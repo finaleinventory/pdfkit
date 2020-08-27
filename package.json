@@ -22,7 +22,7 @@
       "coffee-script": ">=1.0.1"
   },
   "dependencies": {
-      "png-js": ">=0.1.0"
+      "png-js": "github:finaleinventory/png.js#finale_0.1.x"
   },
   "scripts": {
       "prepublish": "coffee -o js -c lib/ && cp -r lib/font/data js/font/data",
